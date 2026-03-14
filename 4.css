@@ -1,0 +1,45 @@
+body {
+    border: 1.5px solid black;
+    width: 670px;
+    margin: 20px auto;
+}
+
+h2 {
+    text-align: center;
+    padding: 0px 10px
+}
+
+p {
+    text-align: justify;
+    padding: 0px 10px;
+}
+
+.menu8 {
+    list-style-type: none;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    background-color: #484848;
+    overflow: hidden;
+}
+
+.menu8 a:link,
+.menu8 a:visited {
+    float: left;
+    padding: 10px;
+    margin-top: 0px;
+    background-color: #484848;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    margin: 0;
+}
+
+.menu8 a:hover,
+.menu8 a.active {
+    border: white;
+    background-color: white;
+    color: gray;
+}
